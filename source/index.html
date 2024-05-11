@@ -8,6 +8,44 @@
     <link rel="stylesheet" href="css/style.min.css">
   </head>
   <body>
-    Привет мир!
+    <header class="header">
+      <div class="header__container container">
+        <a class="header__logo">
+          <img src="source/img/Logo.svg" alt="Логотип">
+        </a>
+
+        <nav class="header__nav--showed">
+          <ul class="header__menu">
+            <li class="header__menu-item"><a href="#">Главная></a></li>
+            <li class="header__menu-item"><a href="#">Магазин</a></li>
+            <li class="header__menu-item"><a href="#">Контакты</a></li>
+          </ul>
+          <div class="header__nav-desription">
+            <p>Следи За Нами <br>
+              В социальных сетях:</p>
+            <a href="#"><img src="source/img/icon-telegram.svg" alt="#" /></a>
+            <a href="#"><img src="source/img/icon-vk.svgs" alt="#" /></a>
+          </div>
+        </nav>
+
+        <div class="header__user-actions">
+          <button class="header__button">
+            <img src="source/img/find.svg" alt="Поиск">
+          </button>
+
+          <button class="header__button">
+            <span class="header__item-counter">456</span>
+            <img src="source/img/basket.svg" alt="Корзина">
+          </button>
+
+          <button class="header__button header__button--hidden">
+            <img src="source/img/Menu.svg" alt="Меню">
+          </button>
+          <button class="header__button header__button--closed">
+            <img src="" alt="menu close icon" />
+          </button>
+        </div>
+      </div>
+    </header>
   </body>
 </html>
