@@ -34,31 +34,31 @@
             }
         }
 
-            .product__name {
-                @media (min-width: 768px) {
-                    font-size: 64px;
-                    line-height: 88px;
-                }
-            }
+      .product__name {
+          @media (min-width: 768px) {
+              font-size: 64px;
+              line-height: 88px;
+          }
+      }
 
-            .product__price {
-                @media (min-width: 768px) {
-                    font-size: 48px;
-                    line-height: 66px;
-                    margin-right: 65px;
-                }
+      .product__price {
+          @media (min-width: 768px) {
+              font-size: 48px;
+              line-height: 66px;
+              margin-right: 65px;
+          }
 
-                @media (min-width: 1728px) {
-                  margin-right: 57px;
-                }
-            }
+          @media (min-width: 1728px) {
+            margin-right: 57px;
+          }
+      }
 
-            .product__old-price {
-                @media (min-width: 768px) {
-                    font-size: 24px;
-                    line-height: 29px;
-              }
-            }
+      .product__old-price {
+          @media (min-width: 768px) {
+              font-size: 24px;
+              line-height: 29px;
+        }
+      }
     }
 
     &--hot-icon {
